@@ -1,0 +1,103 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <linearGradient id="navyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B2A4A"/>
+      <stop offset="100%" stop-color="#163D68"/>
+    </linearGradient>
+
+```
+<linearGradient id="copperGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+  <stop offset="0%" stop-color="#B87333"/>
+  <stop offset="100%" stop-color="#D99852"/>
+</linearGradient>
+```
+
+  </defs>
+
+  <!-- SE Monogram -->
+
+  <!-- S -->
+
+<path d="
+ M110 70
+ C110 40,130 25,165 25
+ L260 25
+ L260 65
+ L175 65
+ C160 65,150 72,150 84
+ C150 96,160 103,175 103
+ L220 103
+ C270 103,300 128,300 170
+ C300 215,270 245,215 245
+ L110 245
+ L110 205
+ L205 205
+ C225 205,240 195,240 178
+ C240 162,225 152,205 152
+ L165 152
+ C125 152,95 125,95 88
+ C95 82,100 75,110 70
+ Z"
+ fill="url(#navyGrad)"
+/>
+
+  <!-- Pipeline -->
+
+<path d="
+ M185 62
+ C235 62,265 88,265 135
+ C265 180,235 212,185 212
+ C165 212,150 225,150 245"
+ fill="none"
+ stroke="#E6EEF5"
+ stroke-width="16"
+ stroke-linecap="round"
+/>
+
+  <!-- E Structure -->
+
+  <g fill="url(#copperGrad)">
+    <rect x="280" y="25" width="110" height="34" rx="4"/>
+    <rect x="280" y="118" width="90" height="34" rx="4"/>
+    <rect x="280" y="211" width="110" height="34" rx="4"/>
+
+```
+<rect x="280" y="25" width="20" height="220"/>
+
+<!-- Structural braces -->
+<line x1="300" y1="60" x2="350" y2="118"
+      stroke="#8C5A2B" stroke-width="8"/>
+<line x1="350" y1="152" x2="300" y2="210"
+      stroke="#8C5A2B" stroke-width="8"/>
+```
+
+  </g>
+
+  <!-- Company Name -->
+
+<text x="450"
+     y="125"
+     font-family="Arial, Helvetica, sans-serif"
+     font-size="86"
+     font-weight="800"
+     fill="#0B2A4A">
+SOLID </text>
+
+<text x="730"
+     y="125"
+     font-family="Arial, Helvetica, sans-serif"
+     font-size="86"
+     font-weight="800"
+     fill="#B87333">
+EDGE </text>
+
+<text x="455"
+     y="190"
+     font-family="Arial, Helvetica, sans-serif"
+     font-size="42"
+     letter-spacing="4"
+     fill="#6B7280">
+INFRACON LLP </text>
+
+</svg>
